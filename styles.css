@@ -60,6 +60,7 @@
   width: 250px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #d3d3d3;
+  transition-duration: 0.5s;
 }
 
 .card:hover {
@@ -67,6 +68,15 @@
     transform: scale(1.1);
     transition-duration: 0.5s;
     cursor: pointer;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover a {
+    color: red;
 }
 
 .card img {
